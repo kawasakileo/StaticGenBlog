@@ -13,6 +13,8 @@ const IndexPage = () => (
     <p><Link to="/about/">About</Link></p>
     <p><Link to="/contato/">Contato</Link></p>
 
+    <h2><a href="/blog/blog01032020/" class="blogEntryButton">Day One - 01/03/2020</a></h2>
+    
     {/* Exemplo de Input de Imagem */}
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
