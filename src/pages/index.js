@@ -8,13 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Index" />
-    <ul>
+    {/* <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/projetos/">Projetos</a></li>
       <li><a href="/sobre/">Sobre</a></li>
       <li><a href="/contato/">Contato</a></li>
     </ul>
-    <br></br>
+    <br></br> */}
 
     <div id="blogEntryDiv">
       <h2><a href="/blog/blog01032020/" class="blogEntryButton">Day One - 01/03/2020</a></h2>
