@@ -3,10 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ background: `#3366ff`, marginBottom: 23, 
+  <header id="header" style={{ background: `#0074D9`, marginBottom: 23, 
               paddingTop: 17, paddingBottom: 0, paddingLeft: 18, paddingRight: 17 }}>
     <div style={{ marginLeft: 175, maxWidth: 960, display: `inline-block`}}>
-      <h1 style={{}}>
+      <h1 id="headerH1" style={{ fontWeight: 600 }}>
         <Link to="/" style={{ margin: 0, color: `white`, textDecoration: `none` }}>
           {siteTitle}
         </Link>
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 style={{ marginLeft: 395 }}>
+      <h3 id="headerH3" style={{ marginLeft: 405, fontWeight: 450 }}>
         <Link to="/projetos/" style={{ color: `white`, textDecoration: `none` }}>
           Projetos
         </Link>
@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 style={{ marginLeft: 15 }}>
+      <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
         <Link to="/sobre/" style={{ color: `white`, textDecoration: `none` }}>
           Sobre
         </Link>
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 style={{ marginLeft: 15 }}>
+      <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
         <Link to="/contato/" style={{ color: `white`, textDecoration: `none` }}>
           Contato
         </Link>
