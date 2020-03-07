@@ -3,20 +3,19 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header id="header" style={{ background: `#0074D9`, marginBottom: 23, 
-              paddingTop: 17, paddingBottom: 0, paddingLeft: 18, paddingRight: 17 }}>
+  <header id="header" style={{ marginBottom: 23, paddingTop: 17, paddingBottom: 0, paddingLeft: 18, paddingRight: 17 }}>
     <div style={{ marginLeft: 175, maxWidth: 960, display: `inline-block`}}>
       <h1 id="headerH1" style={{ fontWeight: 600 }}>
-        <Link to="/" style={{ margin: 0, color: `white`, textDecoration: `none` }}>
-          {siteTitle}
+        <Link to="/" style={{ margin: 0, color: `white`, textDecoration: `none`, fontSize: `32px` }}>
+          <p id="headerP">{siteTitle}</p>
         </Link>
       </h1>
     </div>
 
     <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 id="headerH3" style={{ marginLeft: 405, fontWeight: 450 }}>
+      <h3 id="headerH3" style={{ marginLeft: 520, fontWeight: 450 }}>
         <Link to="/projetos/" style={{ color: `white`, textDecoration: `none` }}>
-          Projetos
+          <p id="headerP">Projetos</p>
         </Link>
       </h3>
     </div>
@@ -24,7 +23,7 @@ const Header = ({ siteTitle }) => (
     <div style={{ maxWidth: 960, display: `inline-block` }}>
       <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
         <Link to="/sobre/" style={{ color: `white`, textDecoration: `none` }}>
-          Sobre
+          <p id="headerP">Sobre</p>
         </Link>
       </h3>
     </div>
@@ -32,7 +31,7 @@ const Header = ({ siteTitle }) => (
     <div style={{ maxWidth: 960, display: `inline-block` }}>
       <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
         <Link to="/contato/" style={{ color: `white`, textDecoration: `none` }}>
-          Contato
+          <p id="headerP">Contato</p>
         </Link>
       </h3>
     </div>

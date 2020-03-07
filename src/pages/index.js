@@ -17,8 +17,37 @@ const IndexPage = () => (
     <br></br> */}
 
     <div id="blogEntryDiv">
+      <h1><a href="/blog/blog01032020/" class="blogEntryButton">Day One</a></h1>
+      <h5><p id="indexP">Alguma descrição aqui...</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 01/03/2020</p></h6>
+    </div>
+    <br></br>
+
+    <div id="blogEntryDiv">
+      <h1><a href="/blog/blog03032020/" class="blogEntryButton">Testes nos estilos</a></h1>
+      <h5><p>Alguma descrição aqui...</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 03/03/2020</p></h6>
+    </div>
+    <br></br>
+
+    <div id="blogEntryDiv">
+      <h1><a href="/blog/blog05032020/" class="blogEntryButton">Mudança no header</a></h1>
+      <h5><p>Alguma descrição aqui...</p></h5>
+      <h6><p>Escrito por: Leonardo Kawasaki | 05/03/2020</p></h6>
+    </div>
+    <br></br>
+
+    <div id="blogEntryDiv">
+      <h1><a href="/blog/blog07032020/" class="blogEntryButton">Refactor no blog entries</a></h1>
+      <h5><p>Alguma descrição aqui...</p></h5>
+      <h6><p>Escrito por: Leonardo Kawasaki | 07/03/2020</p></h6>
+    </div>
+    <br></br>
+
+    {/* <div id="blogEntryDiv">
       <h2><a href="/blog/blog01032020/" class="blogEntryButton">Day One - 01/03/2020</a></h2>
-      <h5><p>Escrito por: Leonardo Kawasaki</p></h5>
+      <h5><p>Alguma Descrição aqui.</p></h5>
+      <h6><p>Escrito por: Leonardo Kawasaki</p></h6>
       <h6><p>Publicado em: 01/03/2020</p></h6>
     </div>
     <br></br>
@@ -35,7 +64,7 @@ const IndexPage = () => (
       <h5><p>Escrito por: Leonardo Kawasaki</p></h5>
       <h6><p>Publicado em: 05/03/2020</p></h6>
     </div>
-    <br></br>
+    <br></br> */}
 
     {/* Exemplo de Input de Imagem */}
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
