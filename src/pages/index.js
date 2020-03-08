@@ -33,14 +33,14 @@ const IndexPage = () => (
     <div id="blogEntryDiv">
       <h1><a href="/blog/blog05032020/" class="blogEntryButton">Mudança no header</a></h1>
       <h5><p>Alguma descrição aqui...</p></h5>
-      <h6><p>Escrito por: Leonardo Kawasaki | 05/03/2020</p></h6>
+      <h6><p>por: Leonardo Kawasaki | 05/03/2020</p></h6>
     </div>
     <br></br>
 
     <div id="blogEntryDiv">
-      <h1><a href="/blog/blog07032020/" class="blogEntryButton">Refactor no blog entries</a></h1>
+      <h1><a href="/blog/blog07032020/" class="blogEntryButton">Refactor nos blog entries</a></h1>
       <h5><p>Alguma descrição aqui...</p></h5>
-      <h6><p>Escrito por: Leonardo Kawasaki | 07/03/2020</p></h6>
+      <h6><p>por: Leonardo Kawasaki | 07/03/2020</p></h6>
     </div>
     <br></br>
 

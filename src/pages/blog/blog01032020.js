@@ -7,13 +7,15 @@ import SEO from "../../components/seo"
 const blog01032020 = () => (
     <Layout>
         <SEO title="blog01032020" />
+        <h1 id="centerH1">Day One</h1>
+        <h5 id="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
         <div id="postagem">
-            <h1 style={{ textalign: `center`}}>blog01032020</h1>
             <p>
                 Após uma breve pesquisa sobre static generators, decidi utilzar o Gatsby.js e neste dia (01/03/2020)
                 foi o primeiro de desenvolvimento do blog.
-        </p>
+            </p>
         </div>
+        <br></br>
     </Layout >
 )
 

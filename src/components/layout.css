@@ -46,6 +46,16 @@ body {
   background: linear-gradient(#0074D9, #33a0ff);
 }
 
+#postagem {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: medium;
+}
+
+#postagem p {
+  margin-bottom: 0.4em;
+}
+
 a.blogEntryButton {
   background-color: white; 
   border: 2px solid white;
@@ -175,6 +185,10 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+
+#centerH1 {
+  text-align: center;
 }
 
 h1 {
