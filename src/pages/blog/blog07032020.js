@@ -7,9 +7,9 @@ import SEO from "../../components/seo"
 const blog07032020 = () => (
     <Layout>
         <SEO title="blog07032020" />
-        <h1 id="centerH1">Refactor nos blog entries</h1>
-        <h5 id="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
-        <div id="postagem">
+        <h1 class="centerH1">Refactor nos blog entries</h1>
+        <h5 class="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
+        <div class="postagem">
             <p>
                 Mudei novamente o estilo da página :B. Desse vez centralizei os blog entries e aumentei a fonte,
                 alterei o aspecto de "botão" que eles tinham, tirando a cor e as bordas principalmente. Agora o

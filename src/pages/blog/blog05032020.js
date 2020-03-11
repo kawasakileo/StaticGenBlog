@@ -7,9 +7,9 @@ import SEO from "../../components/seo"
 const blog05032020 = () => (
     <Layout>
         <SEO title="blog05032020" />
-        <h1 id="centerH1">Mudança no header</h1>
-        <h5 id="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
-        <div id="postagem">
+        <h1 class="centerH1">Mudança no header</h1>
+        <h5 class="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
+        <div class="postagem">
             <p>
                 Decidi tirar a barra de menu que ficava em baixo do header (ul), depois de perceber que nenhum blog
                 que acessei continha aquele estilo. Então seguindo estes blogs resolvi colocar os itens desse menu

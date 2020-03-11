@@ -7,9 +7,9 @@ import SEO from "../../components/seo"
 const blog03032020 = () => (
     <Layout>
         <SEO title="blog03032020" />
-        <h1 id="centerH1">Testes nos estilos</h1>
-        <h5 id="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
-        <div id="postagem">
+        <h1 class="centerH1">Testes nos estilos</h1>
+        <h5 class="centerH1"><p>por: Leonardo Kawasaki | 01/03/2020</p></h5>
+        <div class="postagem">
             <p>
                 Utilizando o conhecimento que ja obtinha sobre HTML e CSS, testei alguns estilos para as blog entries.
             </p>

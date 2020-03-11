@@ -2,36 +2,35 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+// TODO: deixar o header responsivo
 const Header = ({ siteTitle }) => (
-  <header id="header" style={{ marginBottom: 23, paddingTop: 17, paddingBottom: 0, paddingLeft: 18, paddingRight: 17 }}>
-    <div style={{ marginLeft: 175, maxWidth: 960, display: `inline-block`}}>
-      <h1 id="headerH1" style={{ fontWeight: 600 }}>
-        <Link to="/" style={{ margin: 0, color: `white`, textDecoration: `none`, fontSize: `32px` }}>
-          <p id="headerP">{siteTitle}</p>
+  <header style={{ background: `linear-gradient(#0074D9, #33a0ff)`, marginBottom: `2.2%`,
+                paddingTop: `1%`, paddingBottom: `0%`, paddingLeft: `0%`, paddingRight: `0%` }}>
+    <div style={{ marginLeft: `16%`, display: `inline-block` }}>
+      <h1>
+        <Link to="/" style={{ fontSize: `32px`, color: `white`, textDecoration: `none` }}>
+          <p class="headerP">{siteTitle}</p>
         </Link>
       </h1>
     </div>
-
-    <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 id="headerH3" style={{ marginLeft: 520, fontWeight: 450 }}>
-        <Link to="/projetos/" style={{ color: `white`, textDecoration: `none` }}>
-          <p id="headerP">Projetos</p>
+    <div style={{ marginLeft: `37%`, display: `inline-block` }}>
+      <h3>
+        <Link to="/projetos/" style={{ fontWeight: 450, color: `white`, textDecoration: `none` }}>
+          <p class="headerP">Projetos</p>
         </Link>
       </h3>
     </div>
-
-    <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
-        <Link to="/sobre/" style={{ color: `white`, textDecoration: `none` }}>
-          <p id="headerP">Sobre</p>
+    <div style={{ marginLeft: `1%`, display: `inline-block` }}>
+      <h3>
+        <Link to="/sobre/" style={{ fontWeight: 450, color: `white`, textDecoration: `none` }}>
+          <p class="headerP">Sobre</p>
         </Link>
       </h3>
     </div>
-
-    <div style={{ maxWidth: 960, display: `inline-block` }}>
-      <h3 id="headerH3" style={{ marginLeft: 15, fontWeight: 450 }}>
-        <Link to="/contato/" style={{ color: `white`, textDecoration: `none` }}>
-          <p id="headerP">Contato</p>
+    <div style={{ marginLeft: `1%`, display: `inline-block` }}>
+      <h3>
+        <Link to="/contato/" style={{ color: `white`, fontWeight: 450, textDecoration: `none` }}>
+          <p class="headerP">Contato</p>
         </Link>
       </h3>
     </div>
@@ -50,7 +49,7 @@ const Header = ({ siteTitle }) => (
 //     <div
 //       style={{
 //         margin: `0 auto`,
-//         maxWidth: 960,
+//         maxWclassth: 960,
 //         // padding: `1.45rem 1.0875rem`,
 //         padding: `19px`,
 //       }}

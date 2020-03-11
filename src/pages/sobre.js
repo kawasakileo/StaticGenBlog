@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Sobre = () =>
     <Layout>
         <SEO title="Sobre" />
-        <h1 id="centerH1">Sobre</h1>
+            <h1 class="centerH1">Sobre</h1>
     </Layout>
 
 export default Sobre
