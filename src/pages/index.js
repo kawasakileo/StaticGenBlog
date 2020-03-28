@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from "gatsby"
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -9,7 +9,7 @@ const IndexPage = () => (
     <SEO title="Index" />
     <p style={{textAlign: "center", fontSize: 16, marginRight: `6em`, marginLeft: `6em`}}>
       <strong>Seja bem vindo ao meu blog!</strong> Aqui postarei sobre a minha experiência sobre o 
-      desenvolvimento deste site, que faz parte das ativclassades da matéria de Projeto Interdisciplinar II 
+      desenvolvimento deste site, que faz parte das ativdades da matéria de Projeto Interdisciplinar II 
       do curso de Ciência da Computação da Unifil.
     </p>
     <hr class="hr"></hr>
