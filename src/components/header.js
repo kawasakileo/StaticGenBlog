@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <div style={{ display: `inline-block`, float: `right`, marginRight: `1%` }}>
       <h3>
-        <Link to="/projetos/" style={{ fontWeight: 450, color: `white`, textDecoration: `none` }}>
+        <Link to="/techstack/" style={{ fontWeight: 450, color: `white`, textDecoration: `none` }}>
           <p class="headerP">Tech Stack</p>
         </Link>
       </h3>
