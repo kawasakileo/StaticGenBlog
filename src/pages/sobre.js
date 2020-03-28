@@ -10,7 +10,7 @@ const Sobre = () =>
     <Layout>
         <SEO title="Sobre" />
         <h1 class="centerH1">Sobre</h1>
-        <div class="postagem">
+        <div class="postagem" style={{ marginBottom: `50px`}}>
             <div style={{ marginBottom: `1.45rem`, width: `200px`, height: `200px`, marginLeft: `380px`}}>
                 <Image3 />
             </div>
@@ -19,9 +19,8 @@ const Sobre = () =>
                 <h4 style={{ marginLeft: `42px` }}><p>Idade: <strong>20 anos</strong></p></h4>
                 <h4 style={{ marginLeft: `42px` }}><p>Curso: <strong>Ciência da Computação</strong></p></h4>
                 <h4 style={{ marginLeft: `42px` }}><p>Linguagem Favorita: <strong>Java :)</strong></p></h4>
-                <h5 style={{ marginLeft: `70px`, marginBottom: `35px` }}><p>Redes Sociais: <a target="_blank" rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/leonardo-kawasaki/">LinkedIn</a> | <a target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/kawasakileo">GitHub</a></p></h5>
+                <h4 style={{ marginLeft: `42px` }}><p>Curiosidades: Moro em Cambé, torço para o Flamengo e 
+                    já fui viciado em Fifa.</p></h4>
             </p>
         </div>
     </Layout>

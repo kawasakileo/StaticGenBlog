@@ -17,8 +17,8 @@ const blog28032020 = () => (
             </p>
             <p>
                 Adicionei também a página Tech Stack, que agora contém a um resumo sobre o que foi utilizado
-                para a criação deste blog. Finalmente adicionei conteúdo as páginas "projetos" e "sobre", que
-                contém alguns projetos que fiz e um pouco sobre mim respectivamente.
+                para a criação deste blog. Em fim adicionei conteúdo as páginas "projetos", "sobre" e "contato", 
+                que contém alguns projetos que fiz e um pouco sobre mim respectivamente.
             </p>
             <p>
                 Trabalhei um pouco com images também. Foi algo que não achei muito ágil usando Gatsby, principalmente
