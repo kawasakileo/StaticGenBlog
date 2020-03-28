@@ -14,6 +14,11 @@ const IndexPage = () => (
     </p>
     <hr class="hr"></hr>
     <div class="blogEntry">
+      <h1><a href="/blog/blog28032020/" class="blogEntryButton">Header Responsivo e páginas com conteúdo</a></h1>
+      <h5><p>Alguma descrição aqui...</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 28/03/2020</p></h6>
+    </div>
+    <div class="blogEntry">
       <h1><a href="/blog/blog07032020/" class="blogEntryButton">Refactor nos blog entries</a></h1>
       <h5><p>Alguma descrição aqui...</p></h5>
       <h6><p>por: Leonardo Kawasaki | 07/03/2020</p></h6>
