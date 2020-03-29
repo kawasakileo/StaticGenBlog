@@ -14,10 +14,10 @@ const Techstack = () =>
               TechStack utilizado para a confecção deste blog:
           </p>
           <p>
-              Para sua construção foi utilizado HTML5, CSS3 e JavaScript. Tudo isso através do 
-              GatsbyJS que é um Static Site Generator de código aberto que reúne as melhores 
-              funcionalidades do React com foco em tornar o desenvolvimento de sites 
-              mais eficiente. 
+              Para sua construção foi utilizado o clássico: HTML5 para a estrutura, CSS3 para o estilo 
+              e o JavaScript para os comportamentos. Tudo isso, é claro, através do  GatsbyJS que é um 
+              Static Site Generator de código aberto que reúne as melhores funcionalidades do React com 
+              foco em tornar o desenvolvimento de sites mais eficiente. 
           </p>
           <p>
           <div style={{ marginBottom: `1.45rem`, width: `150px`, 
