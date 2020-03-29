@@ -1,7 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -42,11 +40,6 @@ const IndexPage = () => (
       <h6><p>por: Leonardo Kawasaki | 01/03/2020</p></h6>
     </div>
     <br></br>
-
-    {/* Exemplo de Input de Imagem */}
-    {/* <div style={{ maxWclassth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div> */}
   </Layout>
 )
 
