@@ -7,10 +7,15 @@ const IndexPage = () => (
     <SEO title="Index" />
     <p style={{textAlign: "center", fontSize: 16, marginRight: `6em`, marginLeft: `6em`}}>
       <strong>Seja bem vindo ao meu blog!</strong> Aqui postarei sobre a minha experiência sobre o 
-      desenvolvimento deste site, que faz parte das ativdades da matéria de Projeto Interdisciplinar II 
+      desenvolvimento deste site, que faz parte das atividades da matéria de Projeto Interdisciplinar II 
       do curso de Ciência da Computação da Unifil.
     </p>
     <hr class="hr"></hr>
+    <div class="blogEntry">
+      <h1><a href="/blog/blog23042020/" class="blogEntryButton">Hospedagem nas nuvens</a></h1>
+      <h5><p>Realização da hospedagem do blog.</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 23/04/2020</p></h6>
+    </div>
     <div class="blogEntry">
       <h1><a href="/blog/blog29032020/" class="blogEntryButton">A primeira entrega</a></h1>
       <h5><p>Relatos sobre a experiência da criação do blog e do uso do Gatsby.</p></h5>
