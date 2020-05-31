@@ -12,6 +12,16 @@ const IndexPage = () => (
     </p>
     <hr class="hr"></hr>
     <div class="blogEntry">
+      <h1><a href="/blog/blog31052020/" class="blogEntryButton">Usando o Disqus</a></h1>
+      <h5><p>Adicionando uma seção de comentários utilizando o Disqus</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 31/05/2020</p></h6>
+    </div>
+    <div class="blogEntry">
+      <h1><a href="/blog/blog30052020/" class="blogEntryButton">Compra do domínio e criação do e-mail</a></h1>
+      <h5><p>Compra de um domínio FQDN utilizando a plataforma GoDaddy.</p></h5>
+      <h6><p>por: Leonardo Kawasaki | 30/05/2020</p></h6>
+    </div>
+    <div class="blogEntry">
       <h1><a href="/blog/blog23042020/" class="blogEntryButton">Hospedagem nas nuvens</a></h1>
       <h5><p>Realização da hospedagem do blog.</p></h5>
       <h6><p>por: Leonardo Kawasaki | 23/04/2020</p></h6>
