@@ -19,7 +19,7 @@ export default class extends Component {
         <h5 class="centerH1"><p>por: Leonardo Kawasaki | 23/04/2020</p></h5>
         <div class="postagem">
           <p>
-              Na segunda entrega, foi demandado a hospedagem do blog em algum provedor em <i>cloud</i>.
+              Na segunda entrega foi demandado a hospedagem do blog em algum provedor em <i>cloud</i>.
               O professor havia nos sugeriu alguns hosts famosos como a AWS, o Azure e o Google Cloud. Considerei
               outras alternativas como o Netlify, que contém integração com o git e facilitaria na
               atualização do blog, porém optei pela a opção que atenderia melhor os requistos da atividade e

@@ -41,7 +41,7 @@ export default class extends Component {
 						rapidamente.
 					</p>
           <p>
-            Mandem e-mails para: <mark>webmaster@blogpi2.online</mark>
+            Mandem e-mails para: <mark>fwdwebmaster@blogpi2.online</mark>
           </p>
         </div>
         <br></br>
