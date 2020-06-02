@@ -7,7 +7,7 @@ export default class extends Component {
   render() {
     const disqusShortname = "testedodisqus" //found in your Disqus.com dashboard
     const disqusConfig = {
-      url: "http://blogpi2.online/blog/blog23042020", //this.props.pageUrl
+      url: "http://www.blogpi2.online/blog/blog23042020", //this.props.pageUrl
       identifier: "65434664319613", //this.props.uniqueId
       title: "Hospedagem nas nuvens" //this.props.title
     }
